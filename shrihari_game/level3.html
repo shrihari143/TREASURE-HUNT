@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PUZZLE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div id="rd" onclick="clue()"><button class="btn third">HINT</button></div>
+    <!-- <button class="btn third">CLUE 1</button> -->
+    <div id="rd" onclick = "window.location.href='index.php';"><button class="btn third">Logout</button></div>
+    <div class="wrapper">
+        <h1>LEVEL 3 : Strong and powerful, he's a force to behold,<br>
+          With his signature move, he's sure to make you fold.<br>
+          He comes from a family of champions, it's true,<br>
+          Wrestling is in his blood, it's what he was born to do. </h1> 
+          
+        <div class="img-area">
+          <div class="single-img" onclick="myFunction()"><img src="level_3/baseball.jpg"height="300px"width="400px"></div></a>
+            <div class="single-img" onclick="myFunction()"><img src="level_3/Hockey.jpg"height="300px"width="400px"></div>
+             <div class="single-img" onclick="myFunction()"><img src="level_3/messi.jpg"height="300px"width="400px"></div></a>
+            <div class="single-img" onclick="myFunction()"><img src="level_3/neeraj.jpg"height="300px"width="400px"></div>
+           <a  href="level4.html" onclick="my()">  <div class="single-img"><img src="level_3/Roman.jpg"height="300px"width="400px"></div></a>
+            <div class="single-img" onclick="myFunction()"><img src="level_3/virat.jpg"height="300px"width="400px"></div>
+            
+        </div>
+    </div>
+    <embed src="level1music.mp3" loop="true" autostart="true" width="10"
+    height="0">
+	<script src="index.js"></script>
+  <script>
+    function myFunction() {
+      alert("Wrong Answer!");
+    }
+    function my() {
+      alert("Right Answer! Level 3 completed");
+    }
+    function clue() {
+      alert("Hint is Roman");
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PUZZLE</title>
+   
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="rd" onclick="clue()"><button class="btn third">HINT</button></div>
+    <div id="rd" onclick = "window.location.href='index.php';"><button class="btn third">Logout</button></div>
+    
+
+   
+    
+    <!-- <button class="btn third">CLUE 1</button> -->
+    
+    <div class="wrapper">
+        <h1>LEVEL 4 :This animal has fur and four paws,<br>
+          And when it moves, it's never a pause.<br>
+          It's known for being nimble and quick,<br>
+          And when it sees prey, it will never miss the trick.</h1>
+
+        <div class="img-area">
+            <div class="single-img" onclick="myFunction()"><img src="level_4/1.jpg"height="300px"width="400px"></div> 
+            <a href="level5.html" onclick="my()"> <div class="single-img"><img src="level_4/2.jpg"height="300px"width="400px"></div></a>
+            <div class="single-img" onclick="myFunction()"><img src="level_4/3.jpg"height="300px"width="400px"></div>
+            <div class="single-img" onclick="myFunction()"><img src="level_4/4.jpg"height="300px"width="400px"></div>
+            <div class="single-img" onclick="myFunction()"><img src="level_4/5.jpg"height="300px"width="400px"></div>
+            <div class="single-img" onclick="myFunction()"><img src="level_4/6.jpg"height="300px"width="400px"></div>
+            
+        </div>
+    </div>
+
+    <embed src="level1music.mp3" loop="true" autostart="true" width="10"
+    height="0">
+
+	<script src="index.js"></script>
+  <script>
+    function myFunction() {
+      alert("Wrong Answer!");
+    }
+    function my() {
+      alert("Right Answer! Level 4 completed");
+    }
+    function clue() {
+      alert("Hint is pussy");
+    }
+    
+    </script>
+    </body>
+</html>
